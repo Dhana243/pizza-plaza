@@ -23,7 +23,7 @@ body{
     margin-left: 70%;
 }
 .hero{
-    background: url(pizza\ 4.avif) no-repeat center/cover;
+    background: url(../image/pizza\ 4.avif) no-repeat center/cover;
     height: 55vh;
     display: flex;
     flex-direction: column;
