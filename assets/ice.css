@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-height: 1100px;
+}
+
+.head nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ffffff;
+}
+.head ul{
+    list-style: none;
+    display: flex;
+}
+.head a{
+    text-decoration: none;
+   margin: 0 15px;
+   font-size: 24px;
+   color: #71322b;
+}
+.head button{
+    border: none;
+    background-color: #71322b;
+    color: #E3D5CC;
+    border-radius: 20px;
+    font-size: 34px;
+    text-align: center;
+    padding: 5px 25px;
+}
+.hero{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.text{
+    color: #2f2E2E;
+    font-size: 50px;
+    text-align: center;
+}
+.text img{
+    width: 45opx;
+    height: auto;
+}
+.iceanimi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    animation: move 2s  1s linear infinite both ;
+    
+}
+.iceanimi img{
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+}
+@keyframes move {
+ 0%{
+    transform: translatex(500px);
+ }
+
+ 
+ 
+ 80%{
+    transform: translatex(0px);
+ }
+}
+footer{
+    background-color: #782f1c;
+}
+footer h2{
+    text-align: center;
+    color: #E3D5CC;
+}
+
+.footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #E3D5CC;
+    gap: 50px;
+    font-size: 24px;
+}
+.foot img{
+    width: 100px;
+    height: 100px;
+   margin-left: 45%;
+}
+.footer button{
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #71322b;
+    background-color: #E3D5CC;
+    padding: 10px;
+}
+.footer p{
+  text-align: center;
+  
+}
+.footer button:hover{
+  color: #E3D5CC;
+  background-color: #71322b;
+
+}
+.heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgba(89, 207, 89, 0.822);
+      font-size: 32px;
+}
+.heading img{
+   
+    height: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    background-color: #43544E;
+   width: 300px;
+   
+    text-align: center;
+  object-fit: cover;
+
+}
+.card img{
+   width: 100%;
+}
+.card h2{
+    color: #E3D5CC;
+   font-size: 23px;
+   font-weight: bold;
+}
+.card p{
+    color: #ffffff;
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height:20px;
+    text-align: center;
+}
