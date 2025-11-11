@@ -154,3 +154,183 @@ footer h2{
     line-height:20px;
     text-align: center;
 }
+.myform {
+ position: relative;
+  background-color:#ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #E3D5CC;
+ text-align: center;
+ padding: 20px;
+ margin-left: 70%;
+ width: 300px;
+ gap: 10px;
+ display: none;
+}
+ 
+ .up{
+   display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.up button{
+    border: none;
+    background-color: white;
+    color: black;
+}
+ 
+form label{
+  display: flex;
+  justify-content: space-between;
+ gap: 1opx;
+}
+ form button{
+  background-color: #782f1c;
+  color: #ffffff;
+   border: none;
+   border-radius: 10px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 10px;
+ }
+
+ form h1{
+  color: #782f1c;
+  font-size: 28px;
+}
+form input{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  width: 200px;
+}
+.displayform{
+  display: block;
+  position: relative;
+  background-color:#ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #E3D5CC;
+ text-align: center;
+ padding: 20px;
+ margin-left: 70%;
+ width: 300px;
+ gap: 10px;
+}
+/* ---------- Responsive Design ---------- */
+
+/* Tablet view (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+  .head nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .head a {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .head button {
+    font-size: 26px;
+    padding: 5px 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 36px;
+  }
+
+  .iceanimi img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .myform, .displayform {
+    margin-left: 0;
+    width: 80%;
+  }
+}
+
+/* Mobile view (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .head nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .head ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .head a {
+    font-size: 18px;
+  }
+
+  .head button {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 28px;
+  }
+
+  .iceanimi {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .iceanimi img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .foot img {
+    margin-left: 0;
+  }
+
+  .myform, .displayform {
+    margin-left: 0;
+    width: 90%;
+  }
+}
